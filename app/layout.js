@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bitlinks - URL Shortener",
-  description: "Bitlinks is a url shortener that allows you to create a custom url for your links",
+  title: "Bitlinks - URL Shortener By Shivansh",
+  description: "Bitlinks is a url shortener that allows you to create a custom url for your links By Shivansh",
 };
 
 export default function RootLayout({ children }) {
