@@ -2,6 +2,9 @@
   "name": "bitlink",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "lightningcss": "1.28.2"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
