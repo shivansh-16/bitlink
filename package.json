@@ -16,10 +16,10 @@
     "react-toastify": "^11.0.5"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "postcss": "^8",
+    "autoprefixer": "^10",
     "eslint": "^9",
-    "eslint-config-next": "15.4.6",
-    "tailwindcss": "^4"
+    "eslint-config-next": "15.4.6"
   }
 }
