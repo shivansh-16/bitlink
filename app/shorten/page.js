@@ -43,7 +43,7 @@ const Shorten = () => {
 
     return (
         <div className='flex flex-col justify-center items-center my-2 w-full gap-3 mt-8 mx-auto'>
-            <h1 className='text-center text-2xl font-bold'>Generate your short URL's</h1>
+            <h1 className='text-center text-2xl font-bold'>Generate your short URL&#39;s</h1>
             <div className='w-[80%] flex flex-col gap-3 p-4 mx-auto  '>
                 <label className='font-bold' htmlFor="long-url">Enter your Long URL</label>
                 <input value={url} className='px-4 py-2 rounded-2xl border focus:outline-purple-600' type="text" id='long-url' placeholder='https://www.example.com/products/category/electronics/mobile-phones/smartphone-brand-model-12345?ref=homepage&campaign=sale' onChange={e => seturl(e.target.value)} />
